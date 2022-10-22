@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v3
       - name: create file from the command-line
         shell: pwsh
-        run: ls > resultsfile.ps1
+        run: ls > resultsfile1.ps1
       - name: List File
         shell: pwsh
         run: |
