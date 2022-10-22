@@ -1,0 +1,3 @@
+# read file
+ls
+pwd
