@@ -1,0 +1,17 @@
+name: create file in powershell
+on: push
+
+jobs:
+  create:
+    name: criar
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: create file from the command-line
+        shell: pwsh
+        run: ls > resultsfile.ps1
+      - name: List File
+        shell: pwsh
+        run: |
+          cat resultsfile.ps1
