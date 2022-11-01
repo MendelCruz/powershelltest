@@ -1,3 +1,0 @@
-# read file
-ls
-pwd
